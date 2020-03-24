@@ -1,0 +1,67 @@
+RDBMS   =>ACID
+=======
+Oracle
+MySQL
+DB2
+SQL Server
+MariaDB
+Aurora
+
+NOSQL : 
+==============
+Consistency 
+       Weak
+       Eventual
+       Strong
+
+Availability   24/7
+ 
+
+Partition tolernece
+===========================
+
+CP ->Hbase,MongoDB
+AP ->Apache casendra
+CA ->RDBMS
+
+NOSQL Databse models
+======================
+1.Key value         
+2.column family     :Hbase ,Casendra  =>
+
+1 Table : N column Family :N column qualifier :value
+
+ID      NAME     SALARY    flatNo  bldName  area    city
+=======================================================
+101    Pradeep   12000      502    A4       Shivane Pune   
+
+
+employee_personal_info
+======================
+    id :101   name :Pradeep  salary:12000
+
+employee_address
+======================
+    flatNo:502  bldName:A4 area:Shivane city:Pune
+
+
+3.document oriented :MongoDB
+4.graph storage     : Neo4j,Amazon Neptune
+
+
+
+Amazon DynamoDB is a fast and flexible NOSQL database service for
+all apllications that need consistent,single digit millisecond latency
+ at any scale.It is fully manged databse and supports both document and key value
+ data models.It's a flexible data model and reliable performance make
+  it great fit for mobile,web gaming,IOT and many 
+other serverless applications.
+
+Stored on Solid State Disk
+Spread across 3 gographically distinct data centers.
+
+Choice of 2 consistency models
+
+1.Eventual consistent reads(Default)
+2.Strongly consistent reads
+

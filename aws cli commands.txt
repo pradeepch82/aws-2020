@@ -1,0 +1,42 @@
+
+aws cli commands
+================
+
+$ aws configure
+AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Default region name [None]: us-west-2
+Default output format [None]: json
+
+
+
+$ aws configure --profile ram
+AWS Access Key ID [None]: AKIAI44QH8DHBEXAMPLE
+AWS Secret Access Key [None]: je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY
+Default region name [None]: us-east-1
+Default output format [None]: text
+
+
+$ aws s3 ls 
+
+$ aws s3 ls s3://bucket-name
+
+$ aws s3 rb s3://bucket-name
+
+$ aws s3 cp a.txt s3://bucket-name
+
+$ aws s3 ls --profile produser
+
+$ aws rds ls --profile produser --region us-east-1
+
+
+
+
+
+
+
+
+
+
+
+

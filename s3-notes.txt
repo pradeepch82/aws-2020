@@ -1,0 +1,59 @@
+S3 Service
+============
+Its a Object Storage ,unlimited storage
+It's a Key value store
+
+S3 is a Object based consists of follwoing
+Key (This is simply name of the object)
+Value (This is simply the data which is simply made up of bytes)
+Version Id (Important for versioning)
+MetaData (Data about data u are storing)
+Sub resource-bucket specific configration
+  1.Bucket policies,Access Control Lists
+  2.Cross Origin Resource sharing
+  3.Transfer Acceleration
+
+Built for 99.99$ availabilty for the s3 platform
+Amazon gurantee 99.9 avialability
+Amazon gurantee 99.999999999% durability (11*9)
+   Amount of data expect to loose over giving year
+   10 million objects in s3  with 11 9s durability you expect
+ 
+
+Versioning
+Server Access Logging
+Static Website hosting
+Encryption
+Transfer acceleration
+Events Notification
+Permission -Make Public or Set Bucket
+Permission of other IAM Users
+Life Cycle Rules for Bucket
+Cross Region Replication
+Storage Class
+  standard 3 copy
+  Reduce Redudancy Storage -1 copy  
+  In frequent access 
+  AWS S3 Glacier (archive data)
+
+
+S3 Data consistency
+====================
+Read after write consistency for puts of new objects
+Eventual consistency for overrite PUTS and DELETES (can take some time to propgate)
+
+0 to 5 TB 
+
+
+S3 use cases
+==============
+Backup and recovery 
+Data archiving
+Big Data analytics
+Hybrid Cloud storage
+Cloud Native application data
+Data Recovery
+
+Companys : Netflix,Thomson Reuters ,Airbnb
+
+
