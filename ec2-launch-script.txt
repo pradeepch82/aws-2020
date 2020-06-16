@@ -9,6 +9,29 @@ echo "Hello Students!!  Welcome to AWS EC2 Service at Atos" > /var/www/html/inde
 
 
 
+#!/bin/bash
+sudo su
+yum update -y
+yum install httpd -y
+service httpd start
+chkconfig httpd on
+service httpd status
+mkdir /var/www/html/images/
+echo "<font color='brown' size='7'>Welcome To Image Processing App </font>" > /var/www/html/images/index.html
+
+
+
+#!/bin/bash
+sudo su
+yum update -y
+yum install httpd -y
+service httpd start
+chkconfig httpd on
+service httpd status
+mkdir /var/www/html/blogs/
+echo "<font color='green' size='7'>Welcome To Blog Processing App </font>" > /var/www/html/blogs/index.html
+
+
 
 
 
